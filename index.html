@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>passwordvalid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="signup">
+    <form action="#" method="get" id="sign-up-form">
+    <div class="input-cont">
+        <div><h2>Sign Up</h2></div>
+         <div id="username "class="section">
+            <label for="username">Username:</label>
+            <input id="name"class="text" placeholder="username">
+            <p class="username-error"></p>
+         </div>
+         <div id="email "class="section">
+            <label for="email">Email:</label>
+            <input id="email-input" class="text" placeholder="Enter your email">
+            <p class="error-email"></p>
+         </div>
+         <div id="password " class="section">
+            <label for="password">Password:</label>
+            <input id="password-input"type="password" class="text" placeholder="Enter a strong password">
+            <div class="toggle"> 
+               <input type="checkbox" id="show">
+                <label for="show" id="show-label">Show Password</label>
+            </div>
+            
+             
+            <p class="error-password"></p>
+         </div>
+         <div id="confirmPassword " class="section">
+            <label for="confirmPassword">Confirm Password:</label>
+            <input id="confirmPasswordin"type="password" class="text" placeholder="confirm password">
+            <p class="error-con"> </p>
+         </div>
+         <div id="submitButton "class="section">
+            <input  id="sub-btn"type="submit" value="Sign Up">
+         </div>     
+
+    </div>
+</form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
